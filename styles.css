@@ -199,6 +199,17 @@ section {
     }
 }
 
+@media only screen and (max-width: 350px) {
+    #animate, .section-heading {
+       font-size: 20px;
+   }
+   h1 {
+       font-size: 45px;
+   }
+}
+
+
+
 
 @media only screen and (min-width: 901px) {
     h1 {
