@@ -204,3 +204,11 @@ section {
 
 
 }
+
+@media only screen and (max-width: 350px) {
+    h1 {
+        box-shadow: none
+    }
+
+
+}
