@@ -129,6 +129,7 @@ a:hover {
     justify-content: center;
   }
 
+
   .animation {
   
     position: relative;
@@ -254,13 +255,7 @@ a:hover {
  .project-btn {
     
     background-color: #3F0071;
+    padding: 2%;
     margin-bottom:10% ;
- }
-
- .project-btn:focus{
-    background-color: #3F0071;
-    border: none;
-    outline: none;
-    box-shadow: none
  }
 
