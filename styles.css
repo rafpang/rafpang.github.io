@@ -190,13 +190,17 @@ section {
 
 
 /* media queries*/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 900px) {
+     #animate, .section-heading {
+        font-size: 34px;
+    }
     h1 {
-        font-size: 84px;
+        font-size: 45px;
     }
 }
 
-@media only screen and (min-width: 992px) {
+
+@media only screen and (min-width: 901px) {
     h1 {
         font-size: 96px;
     }
