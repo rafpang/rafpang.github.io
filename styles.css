@@ -191,25 +191,40 @@ section {
 
 
 /* media queries*/
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     h1 {
         font-size: 84px;
     }
+    #animate {
+        font-size: 70px;
+    }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
     h1 {
         font-size: 96px;
     }
-
-
-}
-
-@media only screen and (max-width: 350px) {
-    h1 {
-        box-shadow: none;
-        text-shadow: none
+    #animate {
+        font-size: 82px;
     }
 
 
 }
+
+@media (max-width: 350px) {
+    * h1 {
+        
+        text-shadow: 1.5px 1.5px #f4db7d
+    }
+    }
+
+
+@media (min-width:351px) and (max-width: 767px) {
+        * h1 {
+            
+            text-shadow: 1.2px 1.2px #f4db7d
+        }
+        }
+    
+    
+    
