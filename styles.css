@@ -89,7 +89,7 @@ section {
   
   .animation h1{
     color: #FF8FB1;
-    font-size:50px
+    font-size:25px;
     
   }
 
@@ -98,6 +98,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     font-family: "Ubuntu Mono";
+    
   }
   
   .download-button {
@@ -198,16 +199,6 @@ section {
         font-size: 45px;
     }
 }
-
-@media only screen and (max-width: 350px) {
-    #animate, .section-heading {
-       font-size: 14px;
-   }
-   h1 {
-       font-size: 45px;
-   }
-}
-
 
 
 
